@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="fa">
 
@@ -5,20 +6,20 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>ادوفی - قالب HTML برگذاری دوره های آموزشی</title>
+	<title>فرهنگ ما</title>
 	<!--fivicon icon-->
-	<link rel="icon" href="assets/img/fevicon.png">
+	<link rel="icon" href="{% static 'img/fevicon.png' %}">
 
 	<!-- Stylesheet -->
-	<link rel="stylesheet" href="assets/css/animate.min.css">
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/magnific.min.css">
-	<link rel="stylesheet" href="assets/css/nice-select.min.css">
-	<link rel="stylesheet" href="assets/css/owl.min.css">
-	<link rel="stylesheet" href="assets/css/slick-slide.min.css">
-	<link rel="stylesheet" href="assets/css/fontawesome.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/responsive.css">
+	<link rel="stylesheet" href="{% static 'css/animate.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/magnific.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/nice-select.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/owl.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/slick-slide.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/fontawesome.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	<link rel="stylesheet" href="{% static 'css/responsive.css' %}">
 </head>
 
 <body class='sc5'>
@@ -44,7 +45,7 @@
 					</button>
 				</div>
 				<div class="logo">
-					<a class="main-logo" href="home.html"><img src="assets/img/logo.png" alt="img"></a>
+					<a class="main-logo" href="index.html"><img src="{% static 'img/logo.png' %}" alt="img"></a>
 				</div>
 				<div class="nav-right-part nav-right-part-mobile">
 					<ul>
@@ -60,7 +61,7 @@
 						<li class="current-menu-item menu-item-has-children">
 							<a href="#">صفحه نخست</a>
 							<ul class="sub-menu">
-								<li><a href="home.html">صفحه نخست 01</a></li>
+								<li><a href="index.html">صفحه نخست 01</a></li>
 								<li><a href="home-2.html">صفحه نخست 02</a></li>
 								<li><a href="home-3.html">صفحه نخست 03</a></li>
 							</ul>
@@ -89,7 +90,7 @@
 					<ul>
 						<li><a href="#"><i class="far fa-heart"></i></a></li>
 						<li><a href="#"><i class="fa fa-shopping-basket"></i></a></li>
-						<li><a href="#"><img src="assets/img/author/2.png" alt="img"></a></li>
+						<li><a href="#"><img src="{% static 'img/author/2.png' %}" alt="img"></a></li>
 					</ul>
 				</div>
 			</div>
@@ -197,13 +198,13 @@
 					<div class="lesson-slider owl-carousel">
 						<div class="item">
 							<div class="single-course-wrap media">
-								<div class="thumb" style="background-image: url(assets/img/lesson/01.jpg);">
+								<div class="thumb" style="background-image: url({% static 'img/lesson/01.jpg' %});">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل) </a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -234,13 +235,13 @@
 						</div>
 						<div class="item">
 							<div class="single-course-wrap media">
-								<div class="thumb" style="background-image: url(assets/img/course/4.png);">
+								<div class="thumb" style="background-image: url({% static 'img/course/4.png' %});">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل) </a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -271,13 +272,13 @@
 						</div>
 						<div class="item">
 							<div class="single-course-wrap media">
-								<div class="thumb" style="background-image: url(assets/img/course/3.png);">
+								<div class="thumb" style="background-image: url({% static 'img/course/3.png' %});">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل) </a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -431,13 +432,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-blue">تازه کار</a>
-									<img src="assets/img/course/1.png" alt="img">
+									<img src="{% static 'img/course/1.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -462,13 +463,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-red">حرفه ای</a>
-									<img src="assets/img/course/2.png" alt="img">
+									<img src="{% static 'img/course/2.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -493,13 +494,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-green">همه سطوح</a>
-									<img src="assets/img/course/3.png" alt="img">
+									<img src="{% static 'img/course/3.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -524,13 +525,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-blue">تازه کار</a>
-									<img src="assets/img/course/4.png" alt="img">
+									<img src="{% static 'img/course/4.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -573,13 +574,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-blue">تازه کار</a>
-									<img src="assets/img/course/5.png" alt="img">
+									<img src="{% static 'img/course/5.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -604,13 +605,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-red">حرفه ای</a>
-									<img src="assets/img/course/6.png" alt="img">
+									<img src="{% static 'img/course/6.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -635,13 +636,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-green">همه سطوح</a>
-									<img src="assets/img/course/2.png" alt="img">
+									<img src="{% static 'img/course/2.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -666,13 +667,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-blue">تازه کار</a>
-									<img src="assets/img/course/7.png" alt="img">
+									<img src="{% static 'img/course/7.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -715,13 +716,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-blue">تازه کار</a>
-									<img src="assets/img/course/5.png" alt="img">
+									<img src="{% static 'img/course/5.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -746,13 +747,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-red">حرفه ای</a>
-									<img src="assets/img/course/6.png" alt="img">
+									<img src="{% static 'img/course/6.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -777,13 +778,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-green">همه سطوح</a>
-									<img src="assets/img/course/2.png" alt="img">
+									<img src="{% static 'img/course/2.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -808,13 +809,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-blue">تازه کار</a>
-									<img src="assets/img/course/7.png" alt="img">
+									<img src="{% static 'img/course/7.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -857,13 +858,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-blue">تازه کار</a>
-									<img src="assets/img/course/5.png" alt="img">
+									<img src="{% static 'img/course/5.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -888,13 +889,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-red">حرفه ای</a>
-									<img src="assets/img/course/6.png" alt="img">
+									<img src="{% static 'img/course/6.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -919,13 +920,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-green">همه سطوح</a>
-									<img src="assets/img/course/2.png" alt="img">
+									<img src="{% static 'img/course/2.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -950,13 +951,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-blue">تازه کار</a>
-									<img src="assets/img/course/7.png" alt="img">
+									<img src="{% static 'img/course/7.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -999,13 +1000,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-blue">تازه کار</a>
-									<img src="assets/img/course/5.png" alt="img">
+									<img src="{% static 'img/course/5.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -1030,13 +1031,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-red">حرفه ای</a>
-									<img src="assets/img/course/6.png" alt="img">
+									<img src="{% static 'img/course/6.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -1061,13 +1062,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-green">همه سطوح</a>
-									<img src="assets/img/course/2.png" alt="img">
+									<img src="{% static 'img/course/2.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -1092,13 +1093,13 @@
 							<div class="single-course-wrap">
 								<div class="thumb">
 									<a href="#" class="cat cat-blue">تازه کار</a>
-									<img src="assets/img/course/7.png" alt="img">
+									<img src="{% static 'img/course/7.png' %}" alt="img">
 								</div>
 								<div class="wrap-details">
 									<h6><a href="#">دوره آموزشی توسعه وب (کامل)</a></h6>
 									<div class="user-area">
 										<div class="user-details">
-											<img src="assets/img/author/1.png" alt="img">
+											<img src="{% static 'img/author/1.png' %}" alt="img">
 											<a href="#">فلان فلانی نسب</a>
 										</div>
 										<div class="user-rating">
@@ -1185,7 +1186,7 @@
 						<div class="footer-widget widget widget_link">
 							<h4 class="widget-title">پشتیبانی</h4>
 							<ul class="pe-4">
-								<li><a href="home.html">فایل راهنما</a></li>
+								<li><a href="index.html">فایل راهنما</a></li>
 								<li><a href="faq.html">پرسش های متداول</a></li>
 								<li><a href="dashboard.html">پنل مدیریت</a></li>
 								<li><a href="contact.html">ارتباط با ما</a></li>
@@ -1202,7 +1203,7 @@
 					<div class="col-xl-7 align-self-center">
 						<div class="d-md-flex align-items-center mb-4 mb-xl-0">
 							<div class="logo d-inline-block">
-								<img src="assets/img/logo.png" alt="img">
+								<img src="{% static 'img/logo.png' %}' %}" alt="img">
 							</div>
 							<div class="copyright-area">
 								<p>کپی رایت © 2021. کلیه حقوق محفوظ است</p>
@@ -1238,21 +1239,21 @@
 	</div>
 
 	<!-- all plugins here -->
-	<script src="assets/js/jquery.3.6.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/imageloded.min.js"></script>
-	<script src="assets/js/counterup.js"></script>
-	<script src="assets/js/waypoint.js"></script>
-	<script src="assets/js/magnific.min.js"></script>
-	<script src="assets/js/isotope.pkgd.min.js"></script>
-	<script src="assets/js/nice-select.min.js"></script>
-	<script src="assets/js/fontawesome.min.js"></script>
-	<script src="assets/js/ripple.js"></script>
-	<script src="assets/js/owl.min.js"></script>
-	<script src="assets/js/slick-slider.min.js"></script>
-	<script src="assets/js/wow.min.js"></script>
+	<script src="{% static 'js/jquery.3.6.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'js/imageloded.min.js' %}"></script>
+	<script src="{% static 'js/counterup.js' %}"></script>
+	<script src="{% static 'js/waypoint.js' %}"></script>
+	<script src="{% static 'js/magnific.min.js' %}"></script>
+	<script src="{% static 'js/isotope.pkgd.min.js' %}"></script>
+	<script src="{% static 'js/nice-select.min.js' %}"></script>
+	<script src="{% static 'js/fontawesome.min.js' %}"></script>
+	<script src="{% static 'js/ripple.js' %}"></script>
+	<script src="{% static 'js/owl.min.js' %}"></script>
+	<script src="{% static 'js/slick-slider.min.js' %}"></script>
+	<script src="{% static 'js/wow.min.js' %}"></script>
 	<!-- main js  -->
-	<script src="assets/js/main.js"></script>
+	<script src="{% static 'js/main.js' %}"></script>
 </body>
 
 </html>
