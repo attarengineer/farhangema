@@ -8,7 +8,7 @@ def json_test(request):
     return JsonResponse({'name': 'alireza'})
 
 def index_view(request):
-    return render(request, '../templates/index.html')
+    return render(request, '../templates/website/index.html')
 
 def about_view(request):
     return HttpResponse('<h1>About page</h1>')

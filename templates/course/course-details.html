@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>ادوفی - قالب HTML برگذاری دوره های آموزشی</title>
+	<!--fivicon icon-->
+	<link rel="icon" href="assets/img/fevicon.png">
+
+	<!-- Stylesheet -->
+	<link rel="stylesheet" href="assets/css/animate.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/magnific.min.css">
+	<link rel="stylesheet" href="assets/css/nice-select.min.css">
+	<link rel="stylesheet" href="assets/css/owl.min.css">
+	<link rel="stylesheet" href="assets/css/slick-slide.min.css">
+	<link rel="stylesheet" href="assets/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body class='sc5'>
+	<div class="body-overlay" id="body-overlay"></div>
+
+	<!-- search popup area start -->
+	<div class="search-popup" id="search-popup">
+		<form action="" class="search-form">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="جستجو.....">
+			</div>
+			<button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+		</form>
+	</div>
+	<!-- //. search Popup -->
+
+	<!-- navbar start -->
+	<header class="navbar-area">
+		<nav class="navbar navbar-expand-lg">
+			<div class="container nav-container">
+				<div class="responsive-mobile-menu">
+					<button class="menu toggle-btn d-block d-lg-none" data-target="#themefie_main_menu" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-left"></span>
+						<span class="icon-right"></span>
+					</button>
+				</div>
+				<div class="logo">
+					<a class="main-logo" href="home.html"><img src="assets/img/logo.png" alt="img"></a>
+				</div>
+				<div class="nav-right-part nav-right-part-mobile">
+					<ul>
+						<li><a class="search header-search" href="#"><i class="fa fa-search"></i></a></li>
+					</ul>
+				</div>
+				<div class="collapse navbar-collapse" id="themefie_main_menu">
+					<div class="single-input-wrap">
+						<input type="text" placeholder="جستجو بین دوره های آموزشی ...">
+						<button><i class="fa fa-search"></i></button>
+					</div>
+					<ul class="navbar-nav menu-open text-end">
+						<li class="current-menu-item menu-item-has-children">
+							<a href="#">صفحه نخست</a>
+							<ul class="sub-menu">
+								<li><a href="home.html">صفحه نخست 01</a></li>
+								<li><a href="home-2.html">صفحه نخست 02</a></li>
+								<li><a href="home-3.html">صفحه نخست 03</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children">
+							<a href="#">صفحات</a>
+							<ul class="sub-menu">
+								<li><a href="blog.html">وبلاگ</a></li>
+								<li><a href="blog-cat.html">دسته بندی وبلاگ</a></li>
+								<li><a href="blog-details.html">نوشته وبلاگ</a></li>
+								<li><a href="course.html">دوره ها</a></li>
+								<li><a href="course-details.html">نمونه دوره</a></li>
+								<li><a href="category.html">دسته بندیها</a></li>
+								<li><a href="instructor.html">اساتید</a></li>
+								<li><a href="instructor-details.html">نمونه استاد</a></li>
+								<li><a href="dashboard.html">پنل مدیریت</a></li>
+								<li><a href="zoom-meeting.html">دوره ویژه</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="instructor.html">استاد شوید</a>
+						</li>
+					</ul>
+				</div>
+				<div class="nav-right-part nav-right-part-desktop">
+					<ul>
+						<li class="right-search">
+							<a href="#"><i class="fa fa-search"></i></a>
+							<div class="single-input-wrap">
+								<input type="text" placeholder="جستجو بین دوره های آموزشی ...">
+								<button><i class="fa fa-search"></i></button>
+							</div>
+						</li>
+						<li><a href="#"><i class="fa fa-shopping-basket"></i></a></li>
+						<li><a href="">وارد شوید</a></li>
+						<li>
+							<a href="" class="btn btn-base-light">ثبت نام کنید</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<div class="category-responsive d-xl-none d-block">
+		<div class="container">
+			<div class="category-slider owl-carousel">
+				<div class="item">
+					<a href="#">توسعه وب</a>
+				</div>
+				<div class="item"><a href="#">طراحی</a></div>
+				<div class="item"><a href="#">بازاریابی</a></div>
+				<div class="item"><a href="#">کسب و کار</a></div>
+				<div class="item"><a href="#">سئو</a></div>
+				<div class="item"><a href="#">عکاسی</a></div>
+				<div class="item"><a href="#">ویدیو</a></div>
+				<div class="item"><a href="#">سلامت و تناسب اندام</a></div>
+				<div class="item"><a href="#">موزیک</a></div>
+				<div class="item"><a href="#">دیگر موارد</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="category-navbar navbar-area d-xl-block d-none">
+		<nav class="navbar navbar-expand-lg">
+			<div class="container nav-container">
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav menu-open">
+						<li>
+							<a href="#">توسعه وب</a>
+						</li>
+						<li>
+							<a href="#">طراحی</a>
+						</li>
+						<li>
+							<a href="#">بازاریابی</a>
+						</li>
+						<li>
+							<a href="#">کسب و کار</a>
+						</li>
+						<li>
+							<a href="#">سئو</a>
+						</li>
+						<li>
+							<a href="#">عکاسی</a>
+						</li>
+						<li>
+							<a href="#">تناسب اندام</a>
+						</li>
+						<li>
+							<a href="#">موزیک</a>
+						</li>
+						<li>
+							<a href="#">دیگر موارد</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<!-- navbar end -->
+
+	<!-- courses-details Area Start-->
+	<section class="courses-details-area pd-top-135 pd-bottom-130">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="single-course-wrap mb-0">
+						<div class="thumb">
+							<a class="play-btn" href="#"><i class="fa fa-play"></i></a>
+							<img src="assets/img/course/video.png" alt="img">
+						</div>
+						<div class="wrap-details">
+							<h5><a href="#">دوره آموزشی توسعه وب (دوره کامل)</a></h5>
+							<p>پایتون را مانند یک حرفه ای از اصول اولیه یاد بگیرید و تمام تلاش خود را برای ایجاد برنامه ها و بازی های خود کنید</p>
+							<div class="user-area">
+								<div class="user-details">
+									<img src="assets/img/author/1.png" alt="img">
+									<a href="#">فلان فلانی نسب</a>
+								</div>
+								<div class="date ms-auto">
+									<i class="fa fa-calendar-alt me-2" style="color: var(--main-color);"></i>آخرین بروزرسانی: 20 خرداد 1400
+								</div>
+								<div class="ms-auto">
+									<i class="fa fa-user me-2" style="color: var(--main-color);"></i>5 هزار دانشجو
+								</div>
+								<div class="user-rating">
+									<span>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-half-alt"></i>
+										4.9</span>(76)
+								</div>
+							</div>
+							<div class="buying-wrap d-flex align-items-center">
+								<h2 class="price d-inline-block mb-0">30 هزار تومان</h2>
+								<a class="btn btn-base ms-auto" href="#">افزودن به سبد</a>
+								<a class="btn btn-base-light ms-3" href="#">الان بخرید</a>
+								<div class="ms-auto d-425-none">
+									<a href="#"><i class="far fa-heart"></i></a>
+									<a class="ms-4" href="#"><i class="fa fa-share me-2"></i>اشتراک بگذارید</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<ul class="course-tab nav nav-pills pd-top-100">
+						<li class="nav-item">
+							<button class="nav-link active" id="pill-1" data-bs-toggle="pill" data-bs-target="#pills-01" type="button" role="tab" aria-controls="pills-01" aria-selected="true">بررسی دوره</button>
+						</li>
+						<li class="nav-item">
+							<button class="nav-link" id="pill-2" data-bs-toggle="pill" data-bs-target="#pills-02" type="button" role="tab" aria-controls="pills-02" aria-selected="false">فایل های دوره</button>
+						</li>
+						<li class="nav-item">
+							<button class="nav-link" id="pill-3" data-bs-toggle="pill" data-bs-target="#pills-03" type="button" role="tab" aria-controls="pills-03" aria-selected="false">دیدگاه کاربران</button>
+						</li>
+					</ul>
+					<div class="tab-content" id="pills-tabContent">
+						<div class="tab-pane fade show active" id="pills-01" role="tabpanel" aria-labelledby="pill-1">
+							<div class="overview-area">
+								<h5>جزئیات دوره</h5>
+								<p>تازه وارد طراحی وب شدید؟ ابتدا اینجا را شروع کنید. مربی جیمز ویلیامسون مفاهیم اساسی ، ابزارها و مسیرهای یادگیری برای طراحی وب را معرفی می کند. وی توضیح می دهد که طراح وب بودن به چه معناست ، زمینه های مختلف تخصصی و اینکه آیا طراحی وب برای شما یک سرگرمی یا کار مناسب است. در این راه ، او با پنج طراح و توسعه دهنده برجسته صحبت می کند ، که هر یک موفق به کسب موفقیت در گوشه دیگری از وب شده اند.</p>
+								<div class="bg-gray">
+									<h6>چه چیزی یاد خواهم گرفت؟
+									</h6>
+									<div class="row">
+										<div class="col-md-6">
+											<ul>
+												<li><i class="fa fa-check"></i>بدانید که چگونه وردپرس را برای بهترین نتیجه پیکربندی کنید</li>
+												<li><i class="fa fa-check"></i>افزونه ها و مضامین و نحوه پیدا کردن / نصب آنها را بدانید</li>
+												<li><i class="fa fa-check"></i>از وب سایت وردپرس آنها در برابر هکرها و اسپمرها محافظت کنید</li>
+											</ul>
+										</div>
+										<div class="col-md-6">
+											<ul>
+												<li><i class="fa fa-check"></i>یک صفحه اصلی ثابت برای اکثر وب سایت ها یا وبلاگ مانند صفحه اصلی مفید برای وبلاگ نویسان ایجاد کنید.</li>
+												<li><i class="fa fa-check"></i>یک سایت وابسته برای درآمد منفعل و تکرار شونده ایجاد کنید</li>
+												<li><i class="fa fa-check"></i>یک وب سایت پاسخگو ایجاد کنید که در هر مرورگری خوب به نظر برسد.</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<h6>پیش نیازها</h6>
+								<ul>
+									<li><i class="fa fa-check"></i>هیچ تجربه قبلی یا نرم افزاری مورد نیاز نیست!
+									</li>
+									<li><i class="fa fa-check"></i>ذهنی باز و با آرامش!</li>
+								</ul>
+								<h6 class="mt-5">مهارت های تحت پوشش این دوره
+								</h6>
+								<ul>
+									<li><i class="fa fa-check"></i>این دوره برای مبتدیانی که هنوز در حال یادگیری بازارهای مالی هستند بسیار مناسب است.</li>
+									<li><i class="fa fa-check"></i>اگر یک وب سایت موجود در وردپرس را در اختیار می گیرید یا می خواهید یک سایت را از ابتدا بسازید ، اما نمی دانید از کجا شروع کنید ، این دوره برای شما مناسب است.</li>
+									<li><i class="fa fa-check"></i>اگر می خواهید بدون اینکه درگیر اصطلاحات فنی شوید ، تسلط بر وردپرس را فرا بگیرید ، این دوره برای شما مناسب است.</li>
+								</ul>
+								<div class="reviewers-area">
+									<div class="row">
+										<div class="col-lg-5">
+											<div class="media d-flex align-items-center">
+												<div class="thumb">
+													<img src="assets/img/author/01.png" alt="img">
+												</div>
+												<div class="media-body">
+													<h6>فلان فلانی نسب</h6>
+													<span>طراح محصول</span>
+												</div>
+											</div>
+										</div>
+										<div class="col-lg-7">
+											<p class="review-content">برای افرادی که مایل به پیشرفت و یادگیری هستند عالی است. لطفاً با ذهن باز در این دوره حاضر شوید زیرا مربی دیدگاه ها و فلسفه های خاص خود را در زمینه طراحی دارد که ممکن است نظر شما را به چالش بکشد. این دوره به شما ...</p>
+										</div>
+									</div>
+									<div class="meta-area d-flex">
+										<div class="user-rating ms-0">
+											<span>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-half-alt"></i>
+												4.9</span>(76)
+										</div>
+										<div class="ms-auto">
+											<i class="fa fa-user me-2" style="color: var(--main-color);"></i>6794 دانشجو
+										</div>
+										<div class="ms-md-5 ms-auto mb-0">
+											<i class="far fa-user me-2" style="color: var(--main-color);"></i>6794 دانش آموز
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="pills-02" role="tabpanel" aria-labelledby="pill-2">...</div>
+						<div class="tab-pane fade" id="pills-03" role="tabpanel" aria-labelledby="pill-3">...</div>
+					</div>
+				</div>
+				<div class="col-lg-4 sidebar-area">
+					<div class="widget widget-accordion-inner">
+						<h5 class="widget-title border-0">برنامه درسی دوره</h5>
+						<div class="accordion" id="accordionExample">
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingOne">
+									<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										معرفی دوره
+									</button>
+								</h2>
+								<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<ul>
+											<li>
+												<a class="play-btn" href="#"><i class="fa fa-play"></i></a>
+												<span>
+													<p>به تفکر استراتژیک خوش آمدید</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingTwo">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										1. تنظیم مرحله برای استراتژیک
+									</button>
+								</h2>
+								<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<ul>
+											<li>
+												<i class="fa fa-lock"></i>
+												<span>
+													<p>از ذهنیت تفکر استراتژیک استقبال کنید</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+											<li>
+												<i class="fa fa-lock"></i>
+												<span>
+													<p>استراتژی: نه فقط برای شرکت های بزرگ</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+											<li>
+												<i class="fa fa-lock"></i>
+												<span>
+													<p>توالی استراتژی</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingThree">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+										2. توسعه تفکر استراتژیک
+									</button>
+								</h2>
+								<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<ul>
+											<li>
+												<i class="fa fa-lock"></i>
+												<span>
+													<p>از ذهنیت تفکر استراتژیک استقبال کنید</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+											<li>
+												<i class="fa fa-lock"></i>
+												<span>
+													<p>استراتژی: نه فقط برای شرکت های بزرگ</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+											<li>
+												<i class="fa fa-lock"></i>
+												<span>
+													<p>توالی استراتژی</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingFour">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+										3. اجرای تفکر استراتژیک
+									</button>
+								</h2>
+								<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<ul>
+											<li>
+												<i class="fa fa-lock"></i>
+												<span>
+													<p>از ذهنیت تفکر استراتژیک استقبال کنید</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+											<li>
+												<i class="fa fa-lock"></i>
+												<span>
+													<p>استراتژی: نه فقط برای شرکت های بزرگ</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+											<li>
+												<i class="fa fa-lock"></i>
+												<span>
+													<p>توالی استراتژی</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item">
+								<h2 class="accordion-header" id="headingFive">
+									<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+										4. همکاری ، به اشتراک گذاری و صادرات
+									</button>
+								</h2>
+								<div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+									<div class="accordion-body">
+										<ul>
+											<li>
+												<i class="fa fa-lock"></i>
+												<span>
+													<p>از ذهنیت تفکر استراتژیک استقبال کنید</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+											<li>
+												<i class="fa fa-lock"></i>
+												<span>
+													<p>استراتژی: نه فقط برای شرکت های بزرگ</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+											<li>
+												<i class="fa fa-lock"></i>
+												<span>
+													<p>توالی استراتژی</p>
+													<span>1 دقیقه 24 ثانیه</span>
+												</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="widget widget-course-details mb-0">
+						<h5 class="widget-title">جزئیات دوره</h5>
+						<ul>
+							<li>سطح دوره: <span>مبتدی</span></li>
+							<li>دسته بندیها: <span><a href="#">کسب و کار</a><a href="#">طراحی</a><a href="#">توسعه</a><a href="#">بازاریابی</a><a href="#">وردپرس</a></span></li>
+							<li>مجموع ساعات: <span>07 ساعت 30 دقیقه</span></li>
+							<li>مجموع دروس: <span>15</span></li>
+							<li>مجموع دانشجوها: <span>5000</span></li>
+							<li>آخرین بروزرسانی: <span>12 خرداد 1400</span></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- courses-details Area End -->
+
+	<!-- footer area start -->
+	<footer class="footer-area">
+		<div class="footer-inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-4 col-sm-6">
+						<div class="footer-widget widget widget_link">
+							<h4 class="widget-title">دسته بندیها</h4>
+							<div class="row">
+								<div class="col-lg-4">
+									<ul class="pe-5">
+										<li><a href="category.html">توسعه وب</a></li>
+										<li><a href="category.html">کسب و کار</a></li>
+										<li><a href="category.html">حسابداری مالی</a></li>
+										<li><a href="category.html">نرم افزارها</a></li>
+										<li><a href="category.html">سئو</a></li>
+										<li><a href="category.html">طراحی</a></li>
+										<li><a href="category.html">بازاریابی</a></li>
+									</ul>
+								</div>
+								<div class="col-lg-4">
+									<ul class="pe-5">
+										<li><a href="category.html">سبک زندگی</a></li>
+										<li><a href="category.html">عکاسی</a></li>
+										<li><a href="category.html">تناسب اندام</a></li>
+										<li><a href="category.html">موزیک</a></li>
+										<li><a href="category.html">طراحی یواسک</a></li>
+										<li><a href="category.html">سئو</a></li>
+										<li><a href="category.html">کسب و کار</a></li>
+									</ul>
+								</div>
+								<div class="col-lg-4">
+									<ul>
+										<li><a href="category.html">خدمات مشتریان</a></li>
+										<li><a href="category.html">منابع</a></li>
+										<li><a href="category.html">رهبری و مدیریت</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-6">
+						<div class="footer-widget widget widget_link">
+							<h4 class="widget-title">صفحات</h4>
+							<ul class="pe-4">
+								<li><a href="blog.html">وبلاگ</a></li>
+								<li><a href="blog-cat.html">دسته بندی وبلاگ</a></li>
+								<li><a href="blog-details.html">نوشته وبلاگ</a></li>
+								<li><a href="course.html">دوره ها</a></li>
+								<li><a href="course-details.html">نمونه دوره</a></li>
+								<li><a href="instructor.html">اساتید</a></li>
+								<li><a href="instructor-details.html">نمونه استاد</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-4 col-sm-6">
+						<div class="footer-widget widget widget_link">
+							<h4 class="widget-title">پشتیبانی</h4>
+							<ul class="pe-4">
+								<li><a href="home.html">فایل راهنما</a></li>
+								<li><a href="faq.html">پرسش های متداول</a></li>
+								<li><a href="dashboard.html">پنل مدیریت</a></li>
+								<li><a href="contact.html">ارتباط با ما</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Footer bottom-->
+		<div class="container">
+			<div class="footer-bottom">
+				<div class="row">
+					<div class="col-xl-7 align-self-center">
+						<div class="d-md-flex align-items-center mb-4 mb-xl-0">
+							<div class="logo d-inline-block">
+								<img src="assets/img/logo.png" alt="img">
+							</div>
+							<div class="copyright-area">
+								<p>کپی رایت © 2021. کلیه حقوق محفوظ است</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 align-self-center text-xl-end">
+						<ul class="social-area d-inline-block">
+							<li><a class="active" href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+							<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+							<li><a href="#"><i class="fab fa-behance"></i></a></li>
+						</ul>
+						<select class="single-select float-sm-end">
+							<option>انگلیسی</option>
+							<option value="asc">پارسی</option>
+							<option value="desc">روسی</option>
+							<option value="pop">چینی</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Footer bottom-->
+	</footer>
+	<!-- footer area end -->
+
+	<!-- back-to-top end -->
+	<div class="back-to-top">
+		<span class="back-top"><i class="fas fa-angle-double-up"></i></span>
+	</div>
+
+	<!-- all plugins here -->
+	<script src="assets/js/jquery.3.6.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/imageloded.min.js"></script>
+	<script src="assets/js/counterup.js"></script>
+	<script src="assets/js/waypoint.js"></script>
+	<script src="assets/js/magnific.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<script src="assets/js/nice-select.min.js"></script>
+	<script src="assets/js/fontawesome.min.js"></script>
+	<script src="assets/js/ripple.js"></script>
+	<script src="assets/js/owl.min.js"></script>
+	<script src="assets/js/slick-slider.min.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+	<!-- main js  -->
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
